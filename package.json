@@ -21,8 +21,6 @@
   "devDependencies": {
   },
   "scripts": {
-    "prepublish": "npm run build",
-    "build": "webpack && rollup -c",
     "lint": "eslint \"**/*.js\" && jsonld-lint contexts",
     "lint:fix": "eslint \"**/*.js\" --fix",
     "test": "jest"
